@@ -1,0 +1,52 @@
+.error-form {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: red;
+}
+
+.valider {
+    margin-top: 40px;
+}
+
+.valider>input{
+    padding-bottom: 27px;
+}
+
+#container > form > div.txtcenter.submit > input[type="submit"] {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.legal-mentions {
+    margin-top: 10px;
+}
+
+.erreur {
+    color: red;
+}
+
+.erreur-message {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.valider {
+    margin-top: 40px;
+}
+
+#container > form > div.txtcenter.submit > input[type="submit"] {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.legal-mentions {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    body.form form > :first-child {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body class="form flex-container-v">
+    <header class="main"><h1><a href="{{ path('homepage') }}"><img src="{{ asset('img/logo-nexity.png') }}" alt="Logo Nexity"><span></span>Une belle vie
+                immobilière</a></h1></header>
+    <div id="container" class="flex-container">
+        {% block content %}{% endblock %}
+    </div>
+    </body>
+{% endblock %}

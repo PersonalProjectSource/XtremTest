@@ -1,0 +1,12 @@
+services:
+    app.repository.postalcode:
+        class: AppBundle\Repository\PostalCodeRepository
+        factory: ["@doctrine.orm.default_entity_manager", getRepository]
+        arguments: ['AppBundle\Entity\PostalCode']
+        public: true
+
+    app.repository.contact:
+        class: AppBundle\Repository\ContactRepository
+        factory: ["@doctrine.orm.default_entity_manager", getRepository]
+        arguments: ['AppBundle\Entity\Contact']
+        public: true
